@@ -1,6 +1,6 @@
 {
     "expo": {
-        "name": "DzikirPagiPetang",
+        "name": "Dzikir Pagi Petang",
         "slug": "DzikirPagiPetang",
         "version": "1.0.0",
         "orientation": "portrait",
@@ -16,6 +16,7 @@
             "supportsTablet": true
         },
         "android": {
+            "package": "com.rizky.dzikirpagipetang",
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#ffffff"
@@ -24,6 +25,11 @@
         "web": {
             "favicon": "./assets/favicon.png"
         },
-        "plugins": ["expo-font"]
+        "plugins": ["expo-font"],
+        "extra": {
+            "eas": {
+                "projectId": "31866082-dc46-42fa-aa95-2bfa0dff9022"
+            }
+        }
     }
 }

@@ -1,33 +1,36 @@
 import { SafeAreaView, View, Text, TouchableOpacity } from "react-native";
 import React from "react";
+import { StatusBar } from "expo-status-bar";
 import { useFonts } from "expo-font";
+import { Montserrat_700Bold } from "@expo-google-fonts/montserrat";
 
 export default function Home({ navigation }) {
     const [fontLoaded] = useFonts({
-        "Montserrat-Bold": require("../assets/fonts/Montserrat-Bold.ttf"),
+        Montserrat_700Bold,
     });
     if (!fontLoaded) return null;
     return (
-        <SafeAreaView className="mt-5 flex-1 items-center bg-gray-100">
-            <View className="flex-1 w-full bg-red-900 justify-center">
+        <SafeAreaView className="items-center flex-1 bg-gray-100">
+            <StatusBar hidden={true} style="light" />
+            <View className="justify-center flex-1 w-full px-5 bg-red-950">
                 <TouchableOpacity
                     onPress={() => navigation.navigate("DzikirPagi")}
                 >
                     <Text
-                        style={{ fontFamily: "Montserrat-Bold" }}
-                        className="text-white text-5xl mx-auto"
+                        style={{ fontFamily: "Montserrat_700Bold" }}
+                        className="py-2 mx-auto text-5xl text-center text-white"
                     >
                         Dzikir Pagi
                     </Text>
                 </TouchableOpacity>
             </View>
-            <View className="flex-1 w-full bg-lime-900 justify-center">
+            <View className="justify-center flex-1 w-full bg-lime-900">
                 <TouchableOpacity
                     onPress={() => navigation.navigate("DzikirPetang")}
                 >
                     <Text
-                        style={{ fontFamily: "Montserrat-Bold" }}
-                        className="text-white text-5xl mx-auto"
+                        style={{ fontFamily: "Montserrat_700Bold" }}
+                        className="py-2 mx-auto text-5xl text-center text-white"
                     >
                         Dzikir Petang
                     </Text>
