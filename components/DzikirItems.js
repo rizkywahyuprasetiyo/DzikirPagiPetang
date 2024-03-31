@@ -19,7 +19,7 @@ export default function DzikirItems({ item }) {
     return (
         <ScrollView>
             <View
-                className="items-center flex-1 px-[22px] py-8 bg-red-950"
+                className="items-center flex-1 px-[22px] py-8"
                 style={{ width }}
             >
                 <View className="mt-10 mb-6">

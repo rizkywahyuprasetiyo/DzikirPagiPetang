@@ -3,18 +3,22 @@ import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { useFonts } from "expo-font";
 import { Montserrat_700Bold } from "@expo-google-fonts/montserrat";
+import { Poppins_400Regular } from "@expo-google-fonts/poppins";
+import { IconHeart } from "@tabler/icons-react-native";
 
 export default function Home({ navigation }) {
     const [fontLoaded] = useFonts({
         Montserrat_700Bold,
+        Poppins_400Regular,
     });
     if (!fontLoaded) return null;
     return (
         <SafeAreaView className="items-center flex-1 bg-gray-100">
             <StatusBar hidden={true} style="light" />
-            <View className="justify-center flex-1 w-full px-5 bg-red-950">
+            <View className="justify-center flex-1 w-full px-6 bg-slate-600">
                 <TouchableOpacity
                     onPress={() => navigation.navigate("DzikirPagi")}
+                    activeOpacity={0.5}
                 >
                     <Text
                         style={{ fontFamily: "Montserrat_700Bold" }}
@@ -24,9 +28,10 @@ export default function Home({ navigation }) {
                     </Text>
                 </TouchableOpacity>
             </View>
-            <View className="justify-center flex-1 w-full bg-lime-900">
+            <View className="justify-center flex-1 w-full bg-slate-800">
                 <TouchableOpacity
                     onPress={() => navigation.navigate("DzikirPetang")}
+                    activeOpacity={0.5}
                 >
                     <Text
                         style={{ fontFamily: "Montserrat_700Bold" }}
@@ -35,6 +40,15 @@ export default function Home({ navigation }) {
                         Dzikir Petang
                     </Text>
                 </TouchableOpacity>
+            </View>
+            <View className="w-full py-5 bg-slate-900">
+                <Text
+                    className="text-center text-white"
+                    style={{ fontFamily: "Poppins_400Regular" }}
+                >
+                    Code with <IconHeart size={16} color="white" /> love from
+                    Desa Kapur.
+                </Text>
             </View>
         </SafeAreaView>
     );
