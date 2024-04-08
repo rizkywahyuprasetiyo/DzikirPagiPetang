@@ -3,6 +3,7 @@
         "name": "Dzikir Pagi Petang",
         "slug": "DzikirPagiPetang",
         "version": "1.0.0",
+        "keepAwake": true,
         "orientation": "portrait",
         "icon": "./assets/icon.png",
         "userInterfaceStyle": "light",
