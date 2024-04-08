@@ -4,7 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { useFonts } from "expo-font";
 import { Montserrat_700Bold } from "@expo-google-fonts/montserrat";
 import { Poppins_400Regular } from "@expo-google-fonts/poppins";
-import { IconHeart } from "@tabler/icons-react-native";
+import { Feather } from "@expo/vector-icons";
 
 export default function Home({ navigation }) {
     const [fontLoaded] = useFonts({
@@ -46,8 +46,8 @@ export default function Home({ navigation }) {
                     className="text-center text-white"
                     style={{ fontFamily: "Poppins_400Regular" }}
                 >
-                    Code with <IconHeart size={16} color="white" /> love from
-                    Desa Kapur.
+                    Code with <Feather name="heart" size={14} color="white" />{" "}
+                    from Desa Kapur.
                 </Text>
             </View>
         </SafeAreaView>

@@ -22,7 +22,7 @@ export default function DzikirItems({ item }) {
                 className="items-center flex-1 px-[22px] py-8"
                 style={{ width }}
             >
-                <View className="mt-10 mb-6">
+                <View className="mt-16 mb-6">
                     <Text
                         className="text-4xl text-center text-white"
                         style={{ fontFamily: "Montserrat_800ExtraBold" }}
