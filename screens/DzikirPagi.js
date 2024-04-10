@@ -7,11 +7,8 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Feather } from "@expo/vector-icons";
 import { useFonts } from "expo-font";
 import { Poppins_400Regular } from "@expo-google-fonts/poppins";
-import { useKeepAwake } from "expo-keep-awake";
 
 export default function DzikirPagi({ navigation }) {
-    useKeepAwake();
-
     let [fontsLoaded] = useFonts({
         Poppins_400Regular,
     });
@@ -66,6 +63,7 @@ export default function DzikirPagi({ navigation }) {
             <FlatList
                 horizontal
                 data={data}
+                keyExtractor={(item) => item.id.toString()}
                 renderItem={({ item }) => <DzikirItems item={item} />}
                 pagingEnabled
                 bounces={false}

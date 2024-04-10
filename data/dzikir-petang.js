@@ -5,6 +5,7 @@ export default [
         arabic: "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
         arti: "Aku berlindung kepada Allah dari godaan syaitan yang terkutuk.",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "2",
@@ -13,6 +14,7 @@ export default [
         arti: "Allah tidak ada Ilah (yang berhak diibadahi) melainkan Dia Yang Hidup Kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang ada di langit dan di bumi. Tidak ada yang dapat memberi syafa’at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang (berada) dihadapan mereka, dan dibelakang mereka dan mereka tidak mengetahui apa-apa dari Ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, Allah Mahatinggi lagi Mahabesar.” (Al-Baqarah: 255)",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "3",
@@ -21,6 +23,7 @@ export default [
         arti: "Katakanlah, Dia-lah Allah Yang Maha Esa. Allah adalah (Rabb) yang segala sesuatu bergantung kepada-Nya. Dia tidak beranak dan tidak pula diperanakkan. Dan tidak ada seorang pun yang setara dengan-Nya.’” (QS. Al-Ikhlash: 1-4).",
         petunjuk: "Dibaca 3 kali",
         awal_surah: true,
+        counter: true,
     },
     {
         id: "4",
@@ -29,6 +32,7 @@ export default [
         arti: "Katakanlah: ‘Aku berlindung kepada Rabb Yang menguasai (waktu) Shubuh dari kejahatan makhluk-Nya. Dan dari kejahatan malam apabila telah gelap gulita. Dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul. Serta dari kejahatan orang yang dengki apabila dia dengki.”‘ (QS. Al-Falaq: 1-5).",
         petunjuk: "Dibaca 3 kali",
         awal_surah: true,
+        counter: true,
     },
     {
         id: "5",
@@ -37,6 +41,7 @@ export default [
         arti: "Katakanlah, ‘Aku berlindung kepada Rabb (yang memelihara dan menguasai) manusia. Raja manusia. Sembahan (Ilah) manusia. Dari kejahatan (bisikan) syaitan yang biasa bersembunyi. Yang membisikkan (kejahatan) ke dalam dada-dada manusia. Dari golongan jin dan manusia.’” (QS. An-Naas: 1-6).",
         petunjuk: "Dibaca 3 kali",
         awal_surah: true,
+        counter: true,
     },
     {
         id: "6",
@@ -45,6 +50,7 @@ export default [
         arti: "Kami telah memasuki waktu sore dan kerajaan hanya milik Allah, segala puji hanya milik Allah. Tidak ada Ilah yang berhak diibadahi dengan benar kecuali Allah Yang Maha Esa, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian. Dia-lah Yang Mahakuasa atas segala sesuatu. Wahai Rabb, aku mohon kepada-Mu kebaikan di malam ini dan kebaikan sesudahnya. Aku berlindung kepada-Mu dari kejahatan malam ini dan kejahatan sesudahnya. Wahai Rabb, aku berlindung kepada-Mu dari kemalasan dan kejelekan di hari tua. Wahai Rabb, aku berlindung kepada-Mu dari siksaan di Neraka dan siksaan di kubur.",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "7",
@@ -53,6 +59,7 @@ export default [
         arti: "Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu sore dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi. Dengan rahmat dan kehendak-Mu kami hidup dan dengan rahmat dan kehendak-Mu kami mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "8",
@@ -61,6 +68,7 @@ export default [
         arti: "Ya Allah, Engkau adalah Rabb-ku, tidak ada Ilah (yang berhak diibadahi dengan benar) kecuali Engkau, Engkau-lah yang menciptakanku. Aku adalah hamba-Mu. Aku akan setia pada perjanjianku dengan-Mu semampuku. Aku berlindung kepada-Mu dari kejelekan (apa) yang kuperbuat. Aku mengakui nikmat-Mu (yang diberikan) kepadaku dan aku mengakui dosaku, oleh karena itu, ampunilah aku. Sesungguhnya tidak ada yang dapat mengampuni dosa kecuali Engkau.",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "9",
@@ -69,6 +77,7 @@ export default [
         arti: "Ya Allah, selamatkanlah tubuhku (dari penyakit dan dari apa yang tidak aku inginkan). Ya Allah, selamatkanlah pendengaranku (dari penyakit dan maksiat atau dari apa yang tidak aku inginkan). Ya Allah, selamatkanlah penglihatanku, tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau. Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kekufuran dan kefakiran. Aku berlindung kepada-Mu dari siksa kubur, tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau.",
         petunjuk: "Dibaca 3 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "10",
@@ -77,6 +86,7 @@ export default [
         arti: "Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan di dunia dan akhirat. Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan dalam agama, dunia, keluarga dan hartaku. Ya Allah, tutupilah auratku (aib dan sesuatu yang tidak layak dilihat orang) dan tentramkan-lah aku dari rasa takut. Ya Allah, peliharalah aku dari depan, belakang, kanan, kiri dan dari atasku. Aku berlindung dengan kebesaran-Mu, agar aku tidak disambar dari bawahku (aku berlindung dari dibenamkan ke dalam bumi).",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "11",
@@ -85,6 +95,7 @@ export default [
         arti: "Ya Allah Yang Mahamengetahui yang ghaib dan yang nyata, wahai Rabb Pencipta langit dan bumi, Rabb atas segala sesuatu dan Yang Merajainya. Aku bersaksi bahwa tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau. Aku berlindung kepada-Mu dari kejahatan diriku, syaitan dan ajakannya menyekutukan Allah (aku berlindung kepada-Mu) dari berbuat kejelekan atas diriku atau mendorong seorang muslim kepadanya.",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "12",
@@ -93,6 +104,7 @@ export default [
         arti: "Dengan Menyebut Nama Allah, yang dengan Nama-Nya tidak ada satupun yang membahayakan, baik di bumi maupun dilangit. Dia-lah Yang Mahamendengar dan Maha mengetahui.",
         petunjuk: "Dibaca 3 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "13",
@@ -101,6 +113,7 @@ export default [
         arti: "Aku rela (ridha) Allah sebagai Rabb-ku (untukku dan orang lain), Islam sebagai agamaku dan Muhammad ﷺ sebagai Nabiku (yang diutus oleh Allah).",
         petunjuk: "Dibaca 3 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "14",
@@ -109,6 +122,7 @@ export default [
         arti: "Wahai Rabb Yang Maha hidup, Wahai Rabb Yang Maha berdiri sendiri (tidak butuh segala sesuatu) dengan rahmat-Mu aku meminta pertolongan, perbaikilah segala urusanku dan jangan diserahkan (urusanku) kepada diriku sendiri meskipun hanya sekejap mata (tanpa mendapat pertolongan dari-Mu).",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "15",
@@ -117,6 +131,7 @@ export default [
         arti: "Di waktu pagi kami berada diatas fitrah agama Islam, kalimat ikhlas, agama Nabi kami Muhammad ﷺ dan agama ayah kami, Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang musyrik.",
         petunjuk: "Dibaca 1 kali",
         awal_surah: false,
+        counter: false,
     },
     {
         id: "16",
@@ -125,6 +140,7 @@ export default [
         arti: "Tidak ada Ilah yang berhak diibadahi dengan benar selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya segala puji. Dan Dia Mahakuasa atas segala sesuatu.",
         petunjuk: "Dibaca 1 / 10 / 100 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "17",
@@ -133,6 +149,7 @@ export default [
         arti: "Mahasuci Allah, aku memuji-Nya.",
         petunjuk: "Dibaca 100 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "18",
@@ -141,6 +158,7 @@ export default [
         arti: "Aku memohon ampunan kepada Allah dan bertaubat kepada-Nya.",
         petunjuk: "Dibaca 100 kali",
         awal_surah: false,
+        counter: true,
     },
     {
         id: "19",
@@ -149,5 +167,6 @@ export default [
         arti: "Aku berlindung dengan kalimat-kalimat Allah yang sempurna, dari kejahatan sesuatu yang diciptakan-Nya.",
         petunjuk: "Dibaca 3 kali",
         awal_surah: false,
+        counter: true,
     },
 ];
