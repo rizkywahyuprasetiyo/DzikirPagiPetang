@@ -65,8 +65,9 @@ export default function DzikirPagi({ navigation }) {
             <FlatList
                 horizontal
                 data={data}
-                keyExtractor={(item) => item.id.toString()}
-                renderItem={({ item }) => <DzikirItems item={item} />}
+                renderItem={({ item }) => (
+                    <DzikirItems item={item} key={item.key} />
+                )}
                 pagingEnabled
                 bounces={false}
                 showsHorizontalScrollIndicator={false}
