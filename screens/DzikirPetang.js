@@ -9,7 +9,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Feather } from "@expo/vector-icons";
 import { useKeepAwake } from "expo-keep-awake";
 
-export default function DzikirPagi({ navigation }) {
+export default function DzikirPetang({ navigation }) {
     useKeepAwake();
 
     let [fontsLoaded] = useFonts({

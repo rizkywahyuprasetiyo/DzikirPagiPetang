@@ -7,8 +7,11 @@ import { LinearGradient } from "expo-linear-gradient";
 import { Feather } from "@expo/vector-icons";
 import { useFonts } from "expo-font";
 import { Poppins_400Regular } from "@expo-google-fonts/poppins";
+import { useKeepAwake } from "expo-keep-awake";
 
 export default function DzikirPagi({ navigation }) {
+    useKeepAwake();
+
     let [fontsLoaded] = useFonts({
         Poppins_400Regular,
     });
